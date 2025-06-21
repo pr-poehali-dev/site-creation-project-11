@@ -6,33 +6,33 @@ const PopularProducts = () => {
   const products = [
     {
       id: 1,
-      title: "Персональный аватар для звезды",
-      description: "Уникальный NFT портрет с космическими элементами",
-      price: "50,000₽",
+      title: "Бот для продаж",
+      description: "Автоматизация приёма заказов и обработки платежей",
+      price: "25,000₽",
       image:
-        "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=300&h=300&fit=crop",
-      category: "Звёзды",
-      likes: 142,
+        "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=300&h=300&fit=crop",
+      category: "Коммерция",
+      likes: 156,
     },
     {
       id: 2,
-      title: "Эксклюзив для Telegram канала",
-      description: "Коллекционный NFT для топовых подписчиков",
-      price: "25,000₽",
+      title: "Модерация канала",
+      description: "Умный бот для автоматической модерации контента",
+      price: "15,000₽",
       image:
-        "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=300&h=300&fit=crop",
-      category: "Telegram",
+        "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=300&h=300&fit=crop",
+      category: "Модерация",
       likes: 89,
     },
     {
       id: 3,
-      title: "Цифровая награда блогера",
-      description: "Интерактивный NFT с анимацией и звуком",
+      title: "CRM интеграция",
+      description: "Подключение Telegram к вашей системе управления",
       price: "35,000₽",
       image:
-        "https://images.unsplash.com/photo-1620121692029-d088224ddc74?w=300&h=300&fit=crop",
-      category: "Блогеры",
-      likes: 205,
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=300&h=300&fit=crop",
+      category: "Интеграция",
+      likes: 124,
     },
   ];
 
@@ -41,11 +41,11 @@ const PopularProducts = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Популярные NFT подарки
+            Популярные Telegram решения
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Наши самые востребованные цифровые подарки, которые уже порадовали
-            звёзд и их фанатов
+            Наши самые востребованные боты и сервисы, которые уже помогают
+            сотням бизнесов автоматизировать работу в Telegram
           </p>
         </div>
 
@@ -62,7 +62,7 @@ const PopularProducts = () => {
                   className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute top-4 left-4">
-                  <span className="bg-purple-500 text-white px-3 py-1 rounded-full text-sm font-medium">
+                  <span className="bg-blue-500 text-white px-3 py-1 rounded-full text-sm font-medium">
                     {product.category}
                   </span>
                 </div>
@@ -75,7 +75,7 @@ const PopularProducts = () => {
               </div>
 
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-purple-600 transition-colors">
+                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
                   {product.title}
                 </h3>
                 <p className="text-gray-600 mb-4 text-sm leading-relaxed">
@@ -83,12 +83,12 @@ const PopularProducts = () => {
                 </p>
 
                 <div className="flex items-center justify-between">
-                  <div className="text-2xl font-bold text-purple-600">
+                  <div className="text-2xl font-bold text-blue-600">
                     {product.price}
                   </div>
                   <Button
                     size="sm"
-                    className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white rounded-full px-6"
+                    className="bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 text-white rounded-full px-6"
                   >
                     <Icon name="ShoppingCart" size={16} className="mr-2" />
                     Заказать
@@ -103,9 +103,9 @@ const PopularProducts = () => {
           <Button
             size="lg"
             variant="outline"
-            className="border-2 border-purple-500 text-purple-600 hover:bg-purple-500 hover:text-white font-semibold px-8 py-4 rounded-full"
+            className="border-2 border-blue-500 text-blue-600 hover:bg-blue-500 hover:text-white font-semibold px-8 py-4 rounded-full"
           >
-            Смотреть весь каталог
+            Все Telegram услуги
             <Icon name="ArrowRight" size={20} className="ml-2" />
           </Button>
         </div>

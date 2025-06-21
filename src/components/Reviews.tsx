@@ -5,32 +5,32 @@ const Reviews = () => {
   const reviews = [
     {
       id: 1,
-      name: "Алексей Петров",
-      role: "Telegram канал @techblog",
+      name: "Андрей Козлов",
+      role: "Владелец @shopbot",
       avatar:
         "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&h=80&fit=crop&crop=face",
       rating: 5,
-      text: "Невероятно качественные NFT! Мои подписчики были в восторге от эксклюзивных подарков. Рекомендую!",
+      text: "Бот увеличил продажи на 300%! Клиенты заказывают прямо в Telegram, очень удобно. Рекомендую!",
       date: "2 недели назад",
     },
     {
       id: 2,
-      name: "Мария Волкова",
-      role: "Блогер, 500K подписчиков",
+      name: "Елена Морозова",
+      role: "Канал @businesstips, 50K подписчиков",
       avatar:
         "https://images.unsplash.com/photo-1494790108755-2616b612b47c?w=80&h=80&fit=crop&crop=face",
       rating: 5,
-      text: "Команда создала для меня персональный NFT аватар, который превзошел все ожидания. Профессионалы своего дела!",
+      text: "Модерационный бот работает идеально. Спам исчез, аудитория стала качественнее. Отличная работа!",
       date: "1 месяц назад",
     },
     {
       id: 3,
-      name: "Денис Сидоров",
-      role: "YouTube канал 'Криптомир'",
+      name: "Максим Петров",
+      role: "IT-директор ООО 'Техно'",
       avatar:
         "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop&crop=face",
       rating: 5,
-      text: "Отличное качество и быстрая доставка. NFT подарки стали хитом среди моей аудитории. Буду заказывать ещё!",
+      text: "Интеграция с CRM превзошла ожидания. Все заявки из Telegram автоматически попадают в систему!",
       date: "3 недели назад",
     },
   ];
@@ -67,8 +67,8 @@ const Reviews = () => {
             Что говорят наши клиенты
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Более 200 довольных клиентов уже получили свои уникальные NFT
-            подарки
+            Более 150 компаний уже автоматизировали свой бизнес с нашими
+            Telegram решениями
           </p>
         </div>
 
@@ -109,8 +109,8 @@ const Reviews = () => {
         <div className="text-center mt-12">
           <div className="inline-flex items-center gap-8 bg-white/60 backdrop-blur-sm rounded-2xl px-8 py-6 border border-white/20">
             <div className="text-center">
-              <div className="text-3xl font-bold text-purple-600">200+</div>
-              <div className="text-sm text-gray-600">Довольных клиентов</div>
+              <div className="text-3xl font-bold text-purple-600">150+</div>
+              <div className="text-sm text-gray-600">Готовых ботов</div>
             </div>
             <div className="w-px h-12 bg-gray-300"></div>
             <div className="text-center">
@@ -119,10 +119,8 @@ const Reviews = () => {
             </div>
             <div className="w-px h-12 bg-gray-300"></div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-purple-600">24ч</div>
-              <div className="text-sm text-gray-600">
-                Среднее время создания
-              </div>
+              <div className="text-3xl font-bold text-purple-600">2ч</div>
+              <div className="text-sm text-gray-600">Среднее время запуска</div>
             </div>
           </div>
         </div>

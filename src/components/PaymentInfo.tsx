@@ -15,11 +15,11 @@ const PaymentInfo = () => {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              Удобная оплата на карту
+              Оплата Telegram услуг
             </h2>
             <p className="text-xl text-gray-600">
-              Мы принимаем оплату напрямую на банковскую карту для вашего
-              удобства
+              Принимаем оплату за разработку ботов и Telegram решений удобным
+              для вас способом
             </p>
           </div>
 
@@ -34,11 +34,11 @@ const PaymentInfo = () => {
                   />
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                  Прямой перевод
+                  Гибкая оплата
                 </h3>
                 <p className="text-gray-600 mb-6">
-                  Оплачивайте заказ переводом на нашу банковскую карту. Никаких
-                  комиссий и скрытых платежей.
+                  Оплачивайте разработку бота поэтапно или полностью. Первый
+                  платёж только после демонстрации рабочего прототипа.
                 </p>
                 <div className="flex items-center justify-center gap-4">
                   <Icon
@@ -59,16 +59,16 @@ const PaymentInfo = () => {
                   <Icon name="Zap" size={32} className="text-blue-600" />
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                  Быстрая обработка
+                  Быстрый запуск
                 </h3>
                 <p className="text-gray-600 mb-6">
-                  После подтверждения оплаты мы начинаем работу над вашим NFT
-                  подарком в течение 2 часов.
+                  После оплаты начинаем разработку вашего Telegram бота в
+                  течение 24 часов. Первая версия готова за 3-5 дней.
                 </p>
                 <div className="flex items-center justify-center gap-4">
                   <Icon name="Clock" size={20} className="text-blue-500" />
                   <span className="text-sm font-medium text-gray-700">
-                    Старт за 2 часа
+                    Старт за 24 часа
                   </span>
                 </div>
               </CardContent>
@@ -77,10 +77,10 @@ const PaymentInfo = () => {
 
           <div className="bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl p-8 text-white text-center">
             <Icon name="Shield" size={32} className="mx-auto mb-4" />
-            <h3 className="text-2xl font-bold mb-4">Гарантия качества</h3>
+            <h3 className="text-2xl font-bold mb-4">Гарантия результата</h3>
             <p className="text-purple-100 max-w-2xl mx-auto">
-              Мы гарантируем высокое качество наших NFT подарков. Если результат
-              вас не устроит — вернём деньги в полном объёме.
+              Гарантируем работоспособность бота в течение 3 месяцев. Если
+              возникнут проблемы — устраним их бесплатно.
             </p>
           </div>
         </div>
